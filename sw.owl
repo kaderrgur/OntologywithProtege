@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kader/ontologies/2021/0/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kader/ontologies/2021/0/untitled-ontology-10">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntikKentler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bireysel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bisiklet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DogaTurlari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ekonomik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GezilecekYerler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GorevAldigiTur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GorevBilgileri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IletisimBilgiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IletisimBilgileri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kamp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KatildigiTur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KatilimBilgisi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kisi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kisisel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KisiselBilgiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KisiselBilgileri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Konaklama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KonaklamaTipi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KonaklamaUcreti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KrediKarti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KulturelTurlar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kumsal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaasBilgileri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musteri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muzeler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nakit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NufusBilgiler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NufusBilgileri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OdemeSekli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Otel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Otobus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OzelArac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parklar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sahil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sehir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeyehatTuru"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurBilgileri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurFiyatBilgisi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TurYonetimSistemi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ucak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ulke"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Gider"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Katilir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Konaklar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Oder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Olabilir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Yonetir"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#KonaklamaUcreti"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MusteriAdi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PersonelAdi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TurLokasyonlari"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TurUcreti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KonaklamaFiyati"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Musteri0001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Personel0001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeyahatAraci0001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TurFiyati0001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TurLokasyonu0001"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aile"/>
+        <Class IRI="#KatilimBilgisi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntikKentler"/>
+        <Class IRI="#KulturelTurlar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bireysel"/>
+        <Class IRI="#KatilimBilgisi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bisiklet"/>
+        <Class IRI="#SeyehatTuru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dag"/>
+        <Class IRI="#Doga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dag"/>
+        <Class IRI="#DogaTurlari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doga"/>
+        <Class IRI="#Kamp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DogaTurlari"/>
+        <Class IRI="#GezilecekYerler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ekonomik"/>
+        <Class IRI="#Otel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GezilecekYerler"/>
+        <Class IRI="#Sehir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GorevAldigiTur"/>
+        <Class IRI="#GorevBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GorevBilgileri"/>
+        <Class IRI="#Personel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IletisimBilgiler"/>
+        <Class IRI="#KisiselBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IletisimBilgileri"/>
+        <Class IRI="#KisiselBilgiler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kamp"/>
+        <Class IRI="#KonaklamaTipi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KatildigiTur"/>
+        <Class IRI="#TurBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KatilimBilgisi"/>
+        <Class IRI="#TurBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kisi"/>
+        <Class IRI="#TurYonetimSistemi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kisisel"/>
+        <Class IRI="#KonaklamaTipi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KisiselBilgiler"/>
+        <Class IRI="#Personel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KisiselBilgileri"/>
+        <Class IRI="#Musteri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Konaklama"/>
+        <Class IRI="#Tur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KonaklamaTipi"/>
+        <Class IRI="#Konaklama"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KonaklamaUcreti"/>
+        <Class IRI="#Konaklama"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KrediKarti"/>
+        <Class IRI="#OdemeSekli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KulturelTurlar"/>
+        <Class IRI="#GezilecekYerler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kumsal"/>
+        <Class IRI="#DogaTurlari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kumsal"/>
+        <Class IRI="#Sahil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lux"/>
+        <Class IRI="#Otel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaasBilgileri"/>
+        <Class IRI="#GorevBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musteri"/>
+        <Class IRI="#Kisi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muzeler"/>
+        <Class IRI="#KulturelTurlar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nakit"/>
+        <Class IRI="#OdemeSekli"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NufusBilgiler"/>
+        <Class IRI="#KisiselBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NufusBilgileri"/>
+        <Class IRI="#IletisimBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OdemeSekli"/>
+        <Class IRI="#TurBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orman"/>
+        <Class IRI="#Doga"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orman"/>
+        <Class IRI="#DogaTurlari"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Otel"/>
+        <Class IRI="#KonaklamaTipi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Otobus"/>
+        <Class IRI="#SeyehatTuru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OzelArac"/>
+        <Class IRI="#SeyehatTuru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parklar"/>
+        <Class IRI="#KulturelTurlar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personel"/>
+        <Class IRI="#Kisi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sahil"/>
+        <Class IRI="#Kamp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sehir"/>
+        <Class IRI="#Ulke"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeyehatTuru"/>
+        <Class IRI="#TurBilgileri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standart"/>
+        <Class IRI="#Otel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tur"/>
+        <Class IRI="#TurYonetimSistemi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurBilgileri"/>
+        <Class IRI="#Musteri"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TurFiyatBilgisi"/>
+        <Class IRI="#GezilecekYerler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ucak"/>
+        <Class IRI="#SeyehatTuru"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ulke"/>
+        <Class IRI="#Tur"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#KonaklamaUcreti"/>
+        <NamedIndividual IRI="#KonaklamaFiyati"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IletisimBilgiler"/>
+        <NamedIndividual IRI="#Musteri0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NufusBilgiler"/>
+        <NamedIndividual IRI="#Musteri0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IletisimBilgileri"/>
+        <NamedIndividual IRI="#Personel0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NufusBilgileri"/>
+        <NamedIndividual IRI="#Personel0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ucak"/>
+        <NamedIndividual IRI="#SeyahatAraci0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TurFiyatBilgisi"/>
+        <NamedIndividual IRI="#TurFiyati0001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kumsal"/>
+        <NamedIndividual IRI="#TurLokasyonu0001"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Gider"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Katilir"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Konaklar"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Oder"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Olabilir"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Yonetir"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#Olabilir"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Gider"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Katilir"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Konaklar"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Oder"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Yonetir"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Gider"/>
+        <Class IRI="#Kisi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Katilir"/>
+        <Class IRI="#Kisi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Konaklar"/>
+        <Class IRI="#Kisi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Oder"/>
+        <Class IRI="#Musteri"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Olabilir"/>
+        <Class IRI="#Musteri"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Yonetir"/>
+        <Class IRI="#Personel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Gider"/>
+        <Class IRI="#Ulke"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Katilir"/>
+        <Class IRI="#Tur"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Konaklar"/>
+        <Class IRI="#Konaklama"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Oder"/>
+        <Class IRI="#KonaklamaUcreti"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Olabilir"/>
+        <Class IRI="#Aile"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Olabilir"/>
+        <Class IRI="#Bireysel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Yonetir"/>
+        <Class IRI="#Tur"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#KonaklamaUcreti"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#MusteriAdi"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#PersonelAdi"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TurLokasyonlari"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TurUcreti"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#KonaklamaUcreti"/>
+        <Class IRI="#KonaklamaUcreti"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MusteriAdi"/>
+        <Class IRI="#KisiselBilgileri"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PersonelAdi"/>
+        <Class IRI="#KisiselBilgiler"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TurLokasyonlari"/>
+        <Class IRI="#GezilecekYerler"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TurUcreti"/>
+        <Class IRI="#TurFiyatBilgisi"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#KonaklamaUcreti"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#MusteriAdi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PersonelAdi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TurLokasyonlari"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TurUcreti"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
